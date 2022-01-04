@@ -1,4 +1,4 @@
 # composerEmail
 邮箱发送
-安装
-composer require quandi/email
+## 安装
+使用composer安装
