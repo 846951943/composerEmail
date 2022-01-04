@@ -5,8 +5,8 @@ require './vendor/autoload.php';
 
 try {
     $config = [
-        'username' => '846951943@qq.com', // 发件邮箱名称
-        'password' => 'rgduxxlycyxibega',// 发件邮箱密码
+        'username' => '', // 发件邮箱名称
+        'password' => '',// 发件邮箱密码
         'mailer' => 'smtp',  // 邮件驱动, 支持 smtp|sendmail|mail 三种驱动
         'host' => 'smtp.qq.com',// SMTP服务器地址
         'security' => 'ssl', // 加密方式 null|ssl|tls, QQ邮箱必须使用ssl
@@ -14,9 +14,8 @@ try {
         'debug' => 2, //
     ];
     $send = QuanEmail::config($config)
-        ->from('846951943@qq.com','嘿嘿')
-        ->to('846951943@qq.com','我的')
-//        ->to('2392740109@qq.com','小秦')
+        ->from('','嘿嘿')
+        ->to('','我的')
         ->title('漂亮？')
         ->text('内容1')  //发送纯文本信息
         ->addAttachment('./包.mp4')  //发送纯文本信息
