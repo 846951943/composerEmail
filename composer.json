@@ -1,0 +1,19 @@
+{
+    "name": "quan/email",
+    "description": "email",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Quan\\Email\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wmq",
+            "email": "846951943@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
